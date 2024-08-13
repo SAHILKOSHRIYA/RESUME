@@ -1,0 +1,232 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape SAHIL KOSHRIYA} \\ \vspace{1pt}
+    Raipur, Chhattisgarh \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-9131198505 ~ \href{mailto:Sahilkoshriya82325@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{Sahilkoshriya82325@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/sahil-koshriya-1b1a9018b/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/sahilkoshriya}}  ~
+    \href{https://github.com/SAHILKOSHRIYA}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/sahilkoshriya}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {NATIONAL INSTITUTE OF TECHNOLOGY RAIPUR}{Sep. 2022 -- Aug 2025}
+      {Master of Computer Applications \textbf{SPI-8.39 CPI-7.00} }{Raipur, Chhattisgarh} 
+       \resumeSubheading
+      {Pt.Ravishankar Shukla University(Govt.Nagarjuna PG College of Science)}{July. 2019 -- May 2022}
+      {Bachelor of Science in Information Technology \textbf{Percentage-81.00}}{Raipur, Chhattisgarh}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=0pt, parsep=3pt]
+                \item\small Data Structures \& Algorithm
+                \item Database Management
+                \item Problem solving
+                \item Computer Network
+                \item OOPs concept 
+                \item Operating System 
+                
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://sahilkoshriya.github.io/UNWIND/}{\underline{UNWIND}-Search Movies}} $|$ \emph{Reactjs , Nodejs , Expressjs}}{April 2024}
+          \resumeItemListStart
+            \resumeItem{ Leveraged the\textbf{ TMDB API} to integrate a robust dataset encompassing detailed metadata for over 10,000 movies and TV shows, ensuring extensive coverage and up-to-date information.}
+            \resumeItem{ \textbf{Implemented} multi-genre \textbf{filtering }capabilities, allowing users to refine search results using over 20 distinct genre parameters, enhancing user experience and search accuracy.}
+            \resumeItem{ Engineered the application to present over 15 critical data attributes per movie/TV show entry, including cast, crew, release date, and synopsis, providing users with comprehensive insights.}
+            \resumeItem{ Developed the frontend using \textbf{React} to create a dynamic and responsive user interface, and utilized \textbf{NodeJS with Express} for the\textbf{ backend }to handle API requests, data transformation, and seamless client-server communication.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{\underline{TODOLIST}} $|$ \emph{Reactjs , Nodejs , Expressjs , Mongodb}}{May 2024}
+          \resumeItemListStart
+            \resumeItem{ Utilized \textbf{React's useState and useReducer} hooks to manage complex state within the to-do list application, ensuring efficient and reactive state updates.}
+            
+            \resumeItem{ Achieved a responsive user interface by leveraging CSS \textbf{Flexbox} and \textbf{Grid} layouts within React components, ensuring optimal usability across various device sizes and screen resolutions.}
+          \resumeItemListEnd 
+          \vspace{-17pt}
+           \resumeProjectHeading
+          {\textbf{\underline{\href{https://nau-27r.github.io/Navodayans-Uplift-Association-27R/}{Navodayans-Uplift-Association-27R(Team Project)}}} $|$ \emph{Reactjs , Nodejs , Expressjs }}{\href{https://nau-27r.github.io/Navodayans-Uplift-Association-27R/}{Click Here}}
+          \resumeItemListStart
+          \resumeItem{ This app aims to support critical\textbf{ health and education }initiatives by providing a robust platform for organizations and individuals to raise funds efficiently and securely. By streamlining the\textbf{ donation }process and offering \textbf{real-time updates}, the app enhances the overall experience for donors and campaign organizers alike.}
+            \resumeItem{ Implemented \textbf{Firestore} as the database solution, leveraging its real-time data synchronization capabilities to ensure immediate updates and consistency across all user interfaces.}
+            \resumeItem{ Utilized \textbf{Firebase Authentication} in conjunction with \textbf{ReactJS} to manage user authentication, ensuring secure access control and data protection within the application.}
+          \resumeItemListEnd 
+          \vspace{-4pt}
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java(Core+Advanced),C++, C, JavaScript} \\
+     \textbf{Developer Tools}{: VS Code, Eclipse, Intellij ,Netbeans} \\
+     \textbf{Technologies/Frameworks}{: Html,Css,Scss,Reactjs ,Nodejs , Expressjs,FireBase } \\
+      \textbf{Version Control}{: GIT,GITHUB,GITBash} \\
+       \textbf{Cloud services}{: Google Cloud} \\
+        \textbf{DB Management}{:SQL,Mongodb,Firestore} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Achievement }
+            \resumeItemListStart
+                \resumeItem{Solved 100+ questions on a leetcode\textbf{(Max rating 1547)} .} \vspace{-7pt}
+                \resumeItem{Certified 5 star in core java - Hackerrank} \vspace{-7pt}
+                \resumeItem{Certified Problem Solving Skills and SQL Command } \vspace{-7pt}
+                
+                \resumeItem{\href{https://drive.google.com/file/d/1p0hVXhKxgF2aC2d0JEx9VR0ISjVyfFn3/view?usp=sharing}{\underline{Achieved \textbf{3rd Rank}} in Senior Vocabulary Bee Competition(\textbf{North South Foundation-Olympiad}})} \vspace{-7pt}
+                \resumeItem{\href{https://drive.google.com/drive/my-drive}{\underline{Graph Theory Programming Camp by Algo University}} } \vspace{-7pt}
+            \resumeItemListEnd
+%-----------Soft Skills---------------
+    \section{Leadership / Experiance / Extracurricular}
+            \resumeItemListStart
+                \resumeItem{\href{https://drive.google.com/file/d/1o8at1cRWf0QIv53wbohv7oHY9OkuSKgx/view?usp=sharing}{\underline{School Game Nationals In Table Tennis 3 times} (Jnv National) (Final Rank 2- Silver} \textbf{Team Leader-U19})} \vspace{-7pt}
+                \resumeItem{ All India In East Zone Table Tennis Tournament (Bhubaneswar Kit) (Quter final rank -4)} \vspace{-7pt}
+                \resumeItem{ All India Inter-Nit Tournament -Table Tennis (Nit Silchar \& Nit Jamshedpur) (Semifinal rank 4)} \vspace{-7pt}
+               \resumeItem{ Designed documentation for project ( Road Map Suggetions and Fund raiser webiste)  } \vspace{-7pt}
+            \resumeItemListEnd
+
+
+\end{document}

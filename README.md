@@ -37,7 +37,8 @@ The resume is designed to highlight my expertise in web development, software en
 To view or edit the resume:
 
 - **PDF Viewer**: Any software that can open PDF files.
-- **LaTeX Editor** (Optional): For editing the LaTeX source file.
+- **LaTeX Editor** (Optional): For editing the LaTeX source file or simply  Overleaf
+- 
 
 ### Steps
 
